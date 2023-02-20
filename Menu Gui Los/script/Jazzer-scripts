@@ -468,7 +468,7 @@ local example = library:CreateWindow({
 
 
 local credits= library:CreateWindow({text='Credits'})
-credits:AddLabel("Youtube Channel: V21K")
+credits:AddLabel("Jazzer Pogi")
 
 example:AddToggle("Auto Race Complete",function(state)
 	_G.Farm = (state and true or false)
